@@ -1,0 +1,124 @@
+
+#navBar {
+	background-color: #ff6b00 !important;
+}
+
+#navBar a{
+	color: white;
+	font-size: 2rem;
+}
+
+#navBar p{
+	color: white;
+	font-size: 2rem;
+	padding: 0;
+}
+
+#navBar a:hover {
+	text-decoration: underline;
+}
+
+/*CAROUSEL*/
+
+
+#carouselCaption {
+
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	font-size: 5rem;
+	font-family: "partybusiness"
+}
+
+.darkVador {
+	font-size: 3rem;
+}
+
+
+.ring {
+  height: 70px;
+  width: 70px;
+  border: 3px solid orange;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px orange inset, 5px 5px 8px orange;
+  display: inline-block;
+  margin-left: 0px;
+  transform: translateY(0);
+}
+
+.ring-boobs {
+  height: 300px;
+  width: 300px;
+  border: 7px solid yellow;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px yellow inset, 5px 5px 8px yellow;
+  display: inline-block;
+  margin-left: 0px;
+  transform: translateY(0);
+}
+
+.ring-1 {
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px black inset, 5px 5px 8px black;
+  display: inline-block;
+  margin-left: 0px;
+  transform: translateY(50%);
+}
+
+.ring-2 {
+  height: 130px;
+  width: 130px;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px black inset, 5px 5px 8px black;
+  display: inline-block;
+  margin-left: -20px;
+  transform: translateY(50%);
+}
+
+.ring-3 {
+  height: 160px;
+  width: 160px;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px black inset, 5px 5px 8px black;
+  display: inline-block;
+  margin-left: -40px;
+  transform: translateY(50%);
+}
+
+.ring-4 {
+  height: 190px;
+  width: 190px;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px black inset, 5px 5px 8px black;
+  display: inline-block;
+  margin-left: -60px;
+  transform: translateY(50%);
+}
+
+.ring-5 {
+  height: 220px;
+  width: 220px;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px black inset, 5px 5px 8px black;
+  display: inline-block;
+  margin-left: -80px;
+  transform: translateY(50%);
+}
+
+.ring-6 {
+  height: 250px;
+  width: 250px;
+  border: 3px solid black;
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px black inset, 5px 5px 8px black;
+  display: inline-block;
+  margin-left: -100px;
+  transform: translateY(50%);
+}
