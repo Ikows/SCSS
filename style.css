@@ -1,3 +1,33 @@
+/*SCSS*/
+
+@mixin myRings ($h, $w, $bor, $color, $ml, $t){
+  height: $h;
+	width: $w;
+	border: $bor solid $color;
+	border-radius: 50%;
+	box-shadow: 5px 5px 8px $color inset,
+				5px 5px 8px $color;
+	display: inline-block;
+	margin-left : $ml;
+	transform: translateY($t);
+}
+
+.ring {
+  @include myRings(70px, 70px, 3px, orange, 0px, 0)
+}
+
+.ring-boobs {
+  @include myRings(300px, 300px, 7px, yellow, 0px, 0)
+}
+
+
+
+
+
+/*CSS*/
+
+
+
 
 #navBar {
 	background-color: #ff6b00 !important;
